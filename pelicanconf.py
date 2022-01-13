@@ -1,9 +1,9 @@
 AUTHOR = 'Thomascytosis'
 SITENAME = 'thomebrew'
-SITEURL = ''
+SITEURL = '.'
 
 PATH = 'content'
-
+OUTPUT_PATH = 'docs'
 TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = 'en'
