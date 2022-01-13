@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pelican = "*"
+markdown = "*"
+invoke = "*"
+livereload = "*"
+"minchin.pelican.plugins.nojekyll" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
