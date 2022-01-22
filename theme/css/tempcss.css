@@ -1,0 +1,363 @@
+
+@media all and (max-device-width: 780px) and (orientation:portrait) {
+
+    html{
+        background: #000 no-repeat top center fixed;  
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%; 
+        }
+        }
+    
+    @media all and (min-device-width: 781px) and (max-device-width: 800px) and (orientation:portrait) {
+    
+    html{
+        background: #000 no-repeat top center fixed;  
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%; 
+        }
+        }
+    
+    @media all and (min-device-width: 801px) and (max-device-width: 1250px) and (orientation:portrait) {
+    
+    html{
+        background: #000  no-repeat top center fixed; 
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%;   
+        }
+        }
+        
+    @media all and (min-device-width: 1251px) and (orientation:portrait) {
+    
+    html{
+        background: #000 no-repeat top center fixed; 
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%;   
+        }
+        }
+    
+    @media all and (max-device-height: 799px) and (orientation:landscape) {
+    
+    html{
+        background: #000  no-repeat top center fixed; 
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%;   
+        }
+        }
+        
+    @media all and (min-device-height: 800px) and (max-device-height: 875px) and (orientation:landscape) {
+    
+    html{
+        background: #000 no-repeat top center fixed;   
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%; 
+        }
+        }
+        
+    @media all and (min-device-height: 876px) and (max-device-height: 1023px) and (orientation:landscape) {
+    
+    html{
+        background: #000 no-repeat top center fixed; 
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%;   
+        }
+        }
+        
+    @media all and (min-device-height: 1024px)  and (max-device-height: 1026px) and (orientation:landscape) {
+    
+    html{
+        background: #000 no-repeat top center fixed;  
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%;  
+        }
+        }
+        
+    @media all and (min-device-height: 1027px)  and (max-device-height: 1400px) and (orientation:landscape) {
+    
+    html{
+        background: #000 no-repeat top center fixed; 
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%;   
+        }
+        }
+        
+    @media all and (min-device-height: 1401px) and (orientation:landscape)  {
+    
+    html{
+        background: #000 no-repeat top center fixed;   
+        -webkit-background-size: cover;  
+        -moz-background-size: cover;  
+        -o-background-size: cover;  
+        background-size: cover; 
+        overflow:hidden;
+        height:100%; 
+        }
+        }
+    
+    body {
+        color:#e1d9a6;
+            font:.93em Georgia, serif;
+            height:100%;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+            margin:0px;
+        }
+        
+    a {
+        color:#fab959;
+        text-decoration:none;
+        }
+    
+    a:hover {
+        text-decoration:underline;
+        }
+        
+    h1 {
+        font-size:2.2em;
+        font-weight:bold;
+        text-align:center;
+        margin-bottom: 25px;
+        }
+        
+    h2 {
+        font-size:1.8em;
+        font-weight:bold;
+        text-align:center;
+        }
+        
+    h3 {
+        font-size:1.4em;
+        font-weight:bold;
+        }
+        
+    img.margin {
+        margin-left:15px; 
+        float:right;
+        }
+        
+        
+    @media all and (min-device-width: 1px) and (max-device-width: 1024px) {
+    #header {
+        width: 570px;
+        height:280px;
+        background:transparent no-repeat 0 0;
+        text-indent:-9999px;
+    }
+    }
+    
+    @media all and (min-device-width: 1025px)  {
+    #header {
+        width: 570px;
+        height:280px;
+        background:transparent no-repeat 0 0;
+        text-indent:-9999px;
+    }
+    }
+    
+    #header h2 {
+        display:none;
+        }
+    
+    
+    /* This is the div that wraps the content div*/
+    
+    #main {
+            padding: 0 10% 2% 10%;
+            margin-left:auto;
+            margin-right:auto;
+            background:transparent;
+        min-width:735px;
+            max-width:1000px;
+        }
+        
+    /* Top menu*/
+    #menu {
+        background:#282828;
+          background:rgba(0,0,0,0.75);
+            padding: 23px;
+            text-align: center;
+            font-weight:bold;
+            position: relative;
+           border:1px solid #c1a45f;
+    }
+    
+    /* This div keeps the search icon from overlapping the menu text*/
+    
+    #menutext {
+        display:inline-block;
+        }
+    
+    #content {
+        border:1px solid #c1a45f;
+        margin: 10px 0 10px;
+         background:#282828;
+          background:rgba(0,0,0,0.75);
+          padding: 10px 20px 20px 20px;
+          overflow: auto;
+            }
+            
+    /* This is the menu second from the bottom*/
+            
+    #menufront {
+        background:#282828;
+          background:rgba(0,0,0,0.75);
+            padding: 25px;
+            text-align: center;
+            font-weight:bold;
+           border-top:1px solid #c1a45f;
+           border-left:1px solid #c1a45f;
+           border-right:1px solid #c1a45f;
+    }
+    
+    
+    /* Bottom menu*/
+            
+    #footer {
+        background:#282828;
+          background:rgba(0,0,0,0.75);
+            padding-bottom: 20px;
+            text-align: center;
+            font-weight:bold;
+           border:1px solid #c1a45f;
+    }
+    
+    /* This formats the copyright text*/
+    
+    .copy {
+        font-size:0.7em;
+        font-weight:normal;
+        }
+        
+        
+    /* div for searchicon */
+    
+    #searchd {
+        display:inline-block;
+        }
+        
+    /* reset webkit search input browser style */
+    input {
+        outline: none;
+    }
+    input[type=search] {
+        -webkit-appearance: textfield;
+        -webkit-box-sizing: content-box;
+        font-family: inherit;
+        font-size: 100%;
+    }
+    input::-webkit-search-decoration,
+    input::-webkit-search-cancel-button {
+        display: none; /* remove the search and cancel icon */
+    }
+    
+    /* search input field */
+    input[type=search] {
+        background: transparent no-repeat 3px center;
+        border: solid 1px transparent;
+        padding: 3px 4px 6px 6px;
+        width: 55px;
+        
+        -webkit-border-radius: 10em;
+        -moz-border-radius: 10em;
+        border-radius: 10em;
+        
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+    }
+    input[type=search]:focus {
+        width: 130px;
+        background-color: #fff;
+        border-color: transparent;
+        
+        -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+        -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+        box-shadow: 0 0 5px rgba(109,207,246,.5);
+    }
+    
+    /* placeholder */
+    input:-moz-placeholder {
+        color: #999;
+    }
+    input::-webkit-input-placeholder {
+        color: #999;
+    }
+    
+    /* Search Icon */
+    #searchicon input[type=search] {
+        width: 33px;
+        padding-left: 10px;
+        color: transparent;
+        cursor: pointer;
+    }
+    #searchicon input[type=search]:hover {
+        background-color: #fff;
+    }
+    #searchicon input[type=search]:focus {
+        width: 130px;
+        padding-left: 40px;
+        color: #000;
+        background-color: #fff;
+        cursor: auto;
+    }
+    #searchicon input:-moz-placeholder {
+        color: transparent;
+    }
+    #searchicon input::-webkit-input-placeholder {
+        color: transparent;
+    }
+    
+    /* Donation box */
+    
+    #donate {
+        margin:-15px 10px 0 0;
+        float:right;
+        }
+    
+    /* Twitter boxes */
+    
+    #twitter {
+        margin:-15px 0px 0 10px;
+        float:left;
+        }
+        
+    #twitter2 {
+        display:none;
+        }
+    
+    

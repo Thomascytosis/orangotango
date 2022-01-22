@@ -1,0 +1,245 @@
+
+body {
+    background:#16141a;
+    color:#e1d9a6;
+    font: 2.4rem Georgia, serif;
+    }
+
+a {
+color:#fab959;
+text-decoration:none;
+}
+
+a:hover {
+text-decoration:none;
+}
+
+a:visited {
+text-decoration:none;
+}
+
+img {
+border-color: #cdcd96;
+border-width:1px;
+}
+
+img.margin {
+float:right;
+margin:5px 0 5px 5px;
+}
+
+.frontpage {
+display:none;
+}
+
+.copy {
+font-size:1.25rem;
+font-weight:normal;
+}
+
+.small {
+font-size: 0.7rem;
+}
+
+.center {
+text-align: center;
+}
+
+
+h1 {
+text-align:center;
+color:#e1d9a6;
+font-size:3.9rem;
+padding-bottom:20px;
+}
+
+h2 {
+
+color:#e1d9a6;
+text-align:center;
+font-size:2.8rem;
+}
+
+h3 {
+color:#e1d9a6;
+font-size:2.6rem;
+}
+
+
+
+b {
+color:#f1f1bf;
+}
+
+
+
+#main {
+    background:transparent;
+    font-size:2.4rem;
+    border-left:2px solid #dfc588;
+    border-right:2px solid #dfc588;
+}
+
+
+#content {
+background: transparent;
+    margin: 20px 20px 40px 20px;
+    position: relative;
+    overflow: auto;
+    }
+    
+#header {
+background:transparent no-repeat 0 0;
+border-top:2px solid #dfc588;
+border-bottom:2px solid #dfc588;
+color:#eeeaa6;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+   -3px 3px 0 #000,
+   3px 3px 0 #000;  
+   padding: 40px 0 40px 25px;
+}
+
+#header h2 {
+text-align:left;
+}
+
+.bigger {
+
+font-size:8.5rem;
+}
+
+
+#menu {
+background:#353535;
+text-align:center;
+font-weight:bold;
+padding: 25px 20px 25px 20px;
+border-bottom:2px solid #dfc588;
+font-size:2.4rem;
+}
+
+#menu a {
+font-size:2.4rem;
+}
+
+#menutext {
+display:inline-block;
+}
+
+#menufront {
+border-top:2px solid #dfc588;
+padding:20px 20px 20px 20px;
+text-align:center;
+font-weight:bold;
+font-size:2.4rem;
+}
+
+#menufront a {
+font-size:2.4rem;
+}
+
+#footer {
+background:#353535;
+text-align:center;
+font-weight:bold;
+padding:20px 15px 20px 15px;
+border-top:2px solid #dfc588;
+border-bottom:2px solid #dfc588;
+font-size:2.4rem;
+}
+
+#footer a {
+font-size:2.4rem;
+}
+
+
+/* div for searchicon */
+
+#searchd {
+display:inline-block;
+}
+
+/* reset webkit search input browser style */
+input {
+outline: none;
+}
+input[type=search] {
+-webkit-appearance: textfield;
+-webkit-box-sizing: content-box;
+font-family: inherit;
+font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+display: none; /* remove the search and cancel icon */
+}
+
+/* search input field */
+input[type=search] {
+background: transparent  no-repeat 5px center;
+border: solid 1px transparent;
+padding: 10px 40px 10px 10px;
+width: 20px;
+
+-webkit-border-radius: 10em;
+-moz-border-radius: 10em;
+border-radius: 10em;
+
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+}
+input[type=search]:focus {
+width: 130px;
+background-color: #fff;
+border-color: transparent;
+
+-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/* placeholder */
+input:-moz-placeholder {
+color: #999;
+}
+input::-webkit-input-placeholder {
+color: #999;
+}
+
+/* Search Icon */
+#searchicon input[type=search] {
+width: 20px;
+padding-left: 10px;
+color: transparent;
+cursor: pointer;
+}
+#searchicon input[type=search]:hover {
+background-color: #fff;
+}
+#searchicon input[type=search]:focus {
+width: 175px;
+padding-left: 60px;
+color: #000;
+background-color: #fff;
+cursor: auto;
+}
+#searchicon input:-moz-placeholder {
+color: transparent;
+}
+#searchicon input::-webkit-input-placeholder {
+color: transparent;
+}
+
+#donate {
+display:none;
+}
+
+#twitter {
+display:none;
+}
+
+
+
